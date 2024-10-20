@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(161, 221, 242);
+    margin-top:25vh;
+}
+
+.table-bordered th, .table-bordered td {
+    background-color: rgb(252, 252, 250);
+    vertical-align: middle;
+}
+
+.teacher-cell {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.teacher-cell:hover {
+    background-color: #1daddd;
+}
+
+.table-warning{
+    background-color: #e4c483!important;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+a {
+    text-decoration: none; 
+    color: #020c18;
+}
+a:hover {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #1daddd;
+}
+.table {
+  
+    margin-left: -100px;
+    width: 1500px;
+    height: 40vh;
+}
